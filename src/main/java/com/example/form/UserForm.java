@@ -2,7 +2,7 @@ package com.example.form;
 
 public class UserForm {
 	private String name;
-	private Integer agee;
+	private Integer age;
 	private String address;
 	
 	public final String getName() {
@@ -11,11 +11,11 @@ public class UserForm {
 	public final void setName(String name) {
 		this.name = name;
 	}
-	public final Integer getAgee() {
-		return agee;
+	public final Integer getAge() {
+		return age;
 	}
-	public final void setAgee(Integer agee) {
-		this.agee = agee;
+	public final void setAge(Integer age) {
+		this.age = age;
 	}
 	public final String getAddress() {
 		return address;
