@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang = "ja" xmlns:th = "http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="output-value.html" th:action="@{/calc-value/result}" method="post">
+数値の計算をします。<br>
+数値１：<input type="tel" name="num1">
+×
+数値2：<input type="tel" name="num2">
+<button>計算する</button>
+</form>
+</body>
+</html>
